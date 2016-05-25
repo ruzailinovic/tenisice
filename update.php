@@ -13,7 +13,7 @@
 
 <p>
     <?php
-    $sql ="UPDATE tenisice SET model='".$_POST['model']."', ime='".$_POST['broj']."' WHERE id=" . $_POST['id'];
+    $sql ="UPDATE tenisice SET model='".$_POST['model']."', broj='".$_POST['broj']."', boja='".$_POST['boja']."', link='".$_POST['link']."' WHERE id=" . $_POST['id'];
     $result = $conn->query($sql);
 
     header('Location:index.php');

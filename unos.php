@@ -17,6 +17,10 @@
     <input type="text" name="model"><br>
     Broj:<br>
     <input type="text" name="broj"><br>
+    Boja:<br>
+    <input type="text" name="boja"><br>
+    Link:<br>
+    <input type="text" name="link"><br>
     <input type="submit" value="Unesi tenisice">
 </form>
 

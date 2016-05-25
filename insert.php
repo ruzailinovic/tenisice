@@ -13,7 +13,7 @@
 
 <p>
     <?php
-    $sql = "INSERT INTO tenisice  (model, broj) VALUES('" . $_POST['model'] . "', '" . $_POST['broj'] . "')";
+    $sql = "INSERT INTO tenisice  (model, broj, boja ) VALUES('" . $_POST['model'] . "', '" . $_POST['broj'] . "', '" . $_POST['boja'] . "','" . $_POST['link'] . "')";
     $result = $conn->query($sql);
 
     echo('Tenisice  su unesene!<br>');
